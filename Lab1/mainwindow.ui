@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>390</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>390</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="listFigure">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>331</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Квадрат</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Прямоугольник</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Параллелограмм</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ромб</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Треугольник</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Трапеция</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Круг</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Сектор</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="photoFigure">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>291</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/img/square</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonArea">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="fieldLabel_1">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="field_1">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="fieldLabel_2">
+         <property name="text">
+          <string>а</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="field_2"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="fieldLabel_3">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="field_3"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButtonClear">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Очистить</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>390</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/home/da4a/squareLab/build/Desktop-Debug/squareLab_autogen",
+	"CMAKE_BINARY_DIR" : "/home/da4a/squareLab/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/da4a/squareLab/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/da4a/squareLab",
+	"CMAKE_SOURCE_DIR" : "/home/da4a/squareLab",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/da4a/squareLab/build/Desktop-Debug/squareLab_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/da4a/squareLab/img/circle.png",
+		"/home/da4a/squareLab/img/triangle.png",
+		"/home/da4a/squareLab/img/Square.png",
+		"/home/da4a/squareLab/img/rectangle.png",
+		"/home/da4a/squareLab/img/rhomb.png",
+		"/home/da4a/squareLab/img/sector.png",
+		"/home/da4a/squareLab/img/parallelogram.png",
+		"/home/da4a/squareLab/img/trapezoid.png"
+	],
+	"LOCK_FILE" : "/home/da4a/squareLab/build/Desktop-Debug/CMakeFiles/squareLab_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/home/da4a/Qt/6.7.2/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/da4a/squareLab/build/Desktop-Debug/CMakeFiles/squareLab_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/da4a/squareLab/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

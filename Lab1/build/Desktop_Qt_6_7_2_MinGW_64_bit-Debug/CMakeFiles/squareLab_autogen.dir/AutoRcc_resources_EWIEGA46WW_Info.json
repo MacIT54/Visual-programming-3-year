@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "C:/Users/danii/Downloads/squareLab/squareLab/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/squareLab_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/danii/Downloads/squareLab/squareLab/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/danii/Downloads/squareLab/squareLab/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/danii/Downloads/squareLab/squareLab",
+	"CMAKE_SOURCE_DIR" : "C:/Users/danii/Downloads/squareLab/squareLab",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/danii/Downloads/squareLab/squareLab/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/squareLab_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/circle.png",
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/triangle.png",
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/Square.png",
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/rectangle.png",
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/rhomb.png",
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/sector.png",
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/parallelogram.png",
+		"C:/Users/danii/Downloads/squareLab/squareLab/img/trapezoid.png"
+	],
+	"LOCK_FILE" : "C:/Users/danii/Downloads/squareLab/squareLab/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/squareLab_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "H:/Qt/6.7.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/danii/Downloads/squareLab/squareLab/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/squareLab_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/danii/Downloads/squareLab/squareLab/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
